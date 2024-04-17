@@ -10,7 +10,9 @@ console.log(resultado);
 const resta = (a,b)=>{
     return a-b;
 }
-
+function saludar(){
+    console.log("No usar esta funcion");
+};
 
 resultado = resta(33,66);
 console.log(resultado);
